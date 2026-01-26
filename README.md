@@ -9,3 +9,5 @@ This repository includes an anonymized analysis pipeline for SLEAP pose-tracking
 - Smooths trajectories (Gaussian smoothing by default; optional Kalman smoothing)
 - Fills missing values via interpolation
 - Computes per-node velocity magnitude over time
+
+Note: No pose-tracking data is included. Users must provide their own SLEAP-exported .h5 file by setting H5_PATH.
